@@ -1,0 +1,346 @@
+* { /* I am not sure which font we should use so I just used this font now */
+ font-family: 'Lato', sans-serif;
+}
+
+.row-boxes{
+  margin: 0 auto;
+  padding: 0px;
+  border: 0px;
+}
+
+.triangle {
+  position: block;
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-top: 20px solid #41454E;
+  margin: 0 auto;
+  margin-top: -5px;
+  padding-top: -440px;
+}
+
+
+.Basic {      /* Styles for Basic Option*/
+  max-width: 60%;
+  max-height: 60%;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  margin: 0 auto; 
+  box-shadow: 1px 1px 1px #888888;
+  text-align: center;
+  display: block;
+}
+
+.Basic h3 {
+  border: solid;
+  border-right: 6px;
+  border-left:6px;
+  border-radius: 10px 10px 0px 0px;
+  margin-top: -3px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding: 5%;
+  background: #41454E;
+  color: white;
+}
+
+.Basic span {
+  text-decoration-line: line-through;
+  text-decoration-color: red;
+}
+
+.Basic p {
+  font-size: 80%;
+  color: grey;
+}
+
+.Basic input { 
+  color: white;
+  background: black;
+  padding: 15px #41454E;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin: 0px 0px 15px 0px;
+  text-align: center;
+  font-size: medium;
+  width: 50%;
+  cursor:pointer
+}
+
+.Basic button {
+  color: white;
+  background: #41454E;
+  border: none;
+  border-radius: 0px 0px 10px 10px;
+  margin: 30px 0px 0px 0px;
+  text-align: center;
+  font-size: small;
+  width: 100%;
+  cursor:pointer
+}
+
+ .Basic ul {
+  list-style-type: none;
+  padding: 20px;
+  line-height: 150%;
+  font-size: 75%;
+  /*margin: 0px 5px 5px 5px; */
+  /*display:none;*/
+} 
+
+
+
+          /* Styles for Fast Pass */
+.Fast-Pass {
+  max-width: 60%;
+  max-height: 60%;
+  border: 1px solid #41454E;
+  border-radius: 10px;
+   margin: 0 auto; 
+   margin-top: 5%; 
+  box-shadow: 1px 1px 1px #888888;
+  text-align: center;
+  display: block;
+}
+
+.Fast-Pass h3 {
+  border: solid;
+  border-right: 6px;
+  border-left:6px;
+  border-radius: 10px 10px 0px 0px;
+  margin-top: -3px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding: 5%;
+  background: #41454E;
+  color: white;
+}
+
+.Fast-Pass p {
+  font-size: 80%;
+  color: grey;
+}
+
+.Fast-Pass input {
+  color: white;
+  background: black;
+  padding: 15px #41454E;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin: 0px 0px 15px 0px;
+  text-align: center;
+  font-size: medium;
+  width: 50%;
+  cursor:pointer
+}
+
+.Fast-Pass button {
+  color: white;
+  background: #41454E;
+  border: none;
+  border-radius: 0px 0px 10px 10px;
+  margin: 30px 0px 0px 0px;
+  text-align: center;
+  font-size: small;
+  width: 100%;
+  cursor:pointer
+}
+
+ .Fast-Pass ul{
+  list-style-type: none;
+  padding: 20px;
+  line-height: 150%;
+  font-size: 75%;
+  /*margin: 0px 5px 5px 5px;  */
+} 
+
+
+/* Styles for Premium */
+ .Premium {
+  max-width: 60%;
+  max-height: 60%;
+   border: 1px solid lightgrey;
+  border-radius: 10px;
+   margin: 0 auto; 
+   margin-top: 5%; 
+  box-shadow: 1px 1px 1px #888888;
+  text-align: center;
+  display: block;
+}
+
+.Premium h3 {
+  border: solid;
+  border-right: 6px;
+  border-left:6px;
+  border-radius: 10px 10px 0px 0px;
+  margin-top: -3px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding: 5%;
+  background: #41454E;
+  color: white;
+}
+
+.Premium p {
+  font-size: 80%;
+  color: grey;
+}
+
+.Premium input {
+  color: white;
+  background: black;
+  padding: 15px #41454E;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin: 0px 0px 15px 0px;
+  text-align: center;
+  font-size: medium;
+  width: 50%;
+  cursor:pointer
+}
+
+.Premium button {
+  color: white;
+  background: #41454E;
+  border: none;
+  border-radius: 0px 0px 10px 10px;
+  margin: 30px 0px 0px 0px;
+  text-align: center;
+  font-size: small;
+  width: 100%;
+  cursor:pointer
+}
+
+ .Premium ul {
+  list-style-type: none;
+  padding: 20px;
+  /*padding-right: 5%;*/
+  line-height: 150%;
+  font-size: 75%;
+  /*margin: 0px 5px 5px 5px;*/
+  /*text-align: center;*/
+} 
+
+
+
+/* ===============================================
+Adaptation for larger screens, moble first fashion
+=================================================*/
+
+/*Tablet*/
+@media (min-width: 750px){
+
+.Basic {
+  width: 30%;
+  min-height: 600px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  margin: 0% 0% 0% 0%; 
+  box-shadow: 1px 1px 1px #888888;
+  text-align: center;
+/*   display: inline-block; */
+  float:left;
+}
+.Fast-Pass {
+  width: 30%;
+  min-height: 600px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  margin: 0% 0% 0% 5%;
+  box-shadow: 1px 1px 1px #888888;
+  text-align: center;
+  display: inline-block;
+/*   float: left; */
+}
+.Premium {
+  width: 30%;
+  min-height: 600px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  margin: 0% 0% 0% 0%;
+  box-shadow: 1px 1px 1px #888888;
+  text-align: center;
+/*   display: inline-block; */
+  float: right;
+  }
+
+  .Basic ul{
+  list-style-type: none;
+  padding: 20px;
+  line-height: 150%;
+  font-size: 75%;
+/*   margin: 0px 0px 0px 0px;      */
+/*     max-width: 80%; */
+/*     max-height: 50%; */
+/*     width: 100%;
+         height: 50%;
+         min-width: 200px; 
+          max-width: 210px; */
+}
+  .Fast-Pass ul {
+  list-style-type: none;
+  padding: 20px;
+  line-height: 150%;
+  font-size: 75%;
+/*   margin: 2px 0px 2px 0px;      */
+/*     max-width: 80%; */
+/*     max-height: 50%; */
+/* width: 100%;
+         height: 50%;
+         min-width: 200px; 
+          max-width: 210px; */
+  } 
+
+  .Premium ul {
+    list-style-type: none;
+  padding: 20px;
+  line-height: 150%;
+  font-size: 75%;
+/*   margin: 2px 0px 2px 0px;      */
+/*     max-width: 80%; */
+/*     max-height: 50%; */
+/* width: 100%;
+         height: 50%;
+         min-width: 200px; 
+          max-width: 210px; */
+        padding-bottom: 90px;
+
+  }
+  
+  
+}
+
+/*Desktop*/
+@media (min-width: 1300px) {
+
+.Basic {
+  max-width: 30%;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #888888;
+  text-align: center;
+  display: inline-block;
+}
+  
+.Fast-Pass {
+  max-width: 30%;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #888888;
+  text-align: center;
+  display: inline-block;
+
+}
+
+.Premium {
+  width: 30%;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #888888;
+  text-align: center;
+  display: inline-block;
+
+}
+
+}
